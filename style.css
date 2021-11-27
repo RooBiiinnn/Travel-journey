@@ -1,0 +1,215 @@
+body {
+    background-color: lightblue;
+  }
+
+  .navi {
+	background-color:#000333;
+    
+    
+	
+}
+
+
+.navi ul {
+	
+    list-style: none;
+    margin: 0 auto;
+	
+	
+}
+
+
+.navi ul li {
+	padding: 10px;
+	border-radius: 5px;
+    float: left;
+    position: relative;
+    left: 15%;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+ 
+ 
+ 
+ 
+}
+
+.navi ul li:hover, .navi ul li:focus, .navi ul li:active {
+	background-color: #2D2F5D;
+	transition: background-color 300ms linear;
+    
+}
+
+.navi ul li a {
+	text-decoration: none;
+	color: aliceblue;
+	font-weight: bolder;
+	transition: font-size 0.2s;
+    
+}
+
+.navi ul li a:hover {
+
+	font-size: 25px;
+}
+
+
+#headcard {
+    position: relative;
+    left: 45px;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+
+
+#card1 {
+    background-color: #2D2F5D;
+    width: 20%;
+    margin: 20px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    float: left;
+    transition: width 0.5s, height 0.5s; 
+    
+}
+#dream {
+
+   height: 150px;
+   width: 267px;
+   transition: width 0.5s, height 0.5s;
+
+}
+#card1 h2 {
+    text-align: center;
+}
+#card1:hover {
+    width: 22%;
+    height: 370px;
+}
+
+#card1:hover #dream {
+    width: 296px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+#card2 {
+    background-color: #2D2F5D;
+    width: 20%;
+    margin: 20px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    float: left;
+    transition: width 0.5s, height 0.5s; 
+}
+#bisna {
+
+   height: 150px;
+   width: 266px;
+   transition: width 0.5s, height 0.5s;
+}
+#card2 h2 {
+    text-align: center;
+}
+#card2:hover {
+    width: 22%;
+    height: 370px;
+}
+
+#card2:hover #bisna {
+    width: 296px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+#card3 {
+    background-color: #2D2F5D;
+    width: 20%;
+    margin: 20px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    float: left;
+    transition: width 0.5s, height 0.5s; 
+}
+#lemon {
+
+   height: 150px;
+   width: 267px;
+   transition: width 0.5s, height 0.5s;
+}
+#card3 h2 {
+    text-align: center;
+}
+#card3:hover {
+    width: 22%;
+    height: 370px;
+}
+
+#card3:hover #lemon {
+    width: 296px;
+    height: auto;
+}
+
+
+
+
+#card4 {
+    background-color: #2D2F5D;
+    width: 20%;
+    margin: 20px;
+    height: 350px;
+    box-shadow: 10px 5px 5px black;
+    float: left;
+    transition: width 0.5s, height 0.5s; 
+}
+#vola {
+
+   height: 150px;
+   width: 267px;
+   transition: width 0.5s, height 0.5s;
+}
+#card4 h2 {
+    text-align: center;
+}
+#card4:hover {
+    width: 22%;
+    height: 370px;
+}
+
+#card4:hover #vola {
+    width: 296px;
+    height: auto;
+}
+
+
+
+#headcard2 {
+    position: relative;
+    left: 180px;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+#join {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Estonia', cursive;
+    font-weight: bolder;
+}
